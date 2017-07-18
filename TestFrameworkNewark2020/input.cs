@@ -8,10 +8,7 @@ namespace TestFrameworkNewark2020
 {
 	class input
 	{
-		//login input
-		public static string usernameValue = "anil developer";
-		public static string passvalue = "123456";
-
+		
 		//register input
 		public static Random randomGenartor = new Random();
 		public static int randomInt = randomGenartor.Next(100);
@@ -37,5 +34,10 @@ namespace TestFrameworkNewark2020
 		public static string educationvalue = "Post-graduate degree";
 		public static string licensevalue = " no license";
 		public static string certificatevalue = "no certificate";
+
+		//login input
+		public static string usernameValue = username;
+		public static string passvalue = "Test@12345";
+
 	}
 }

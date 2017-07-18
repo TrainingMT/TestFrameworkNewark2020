@@ -52,5 +52,9 @@ namespace TestFrameworkNewark2020
 			coreMethod.buttonclick(driver, "Id", control_Id.createbutton);
 
 		}
+		public static void logout(IWebDriver driver)
+		{
+			coreMethod.buttonclick(driver, "Id", control_Id.logout_click);
+		}
 	}
 }

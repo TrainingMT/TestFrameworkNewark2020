@@ -17,10 +17,10 @@ namespace TestFrameworkNewark2020
 
 			driver.Url = @"http://122.160.12.156:8090/";
 			driver.Manage().Window.Maximize();
-			
-		   Thread.Sleep(2000);
+		    Thread.Sleep(2000);
 			featureMethod.Registration(driver);
 			featureMethod.login(driver);
+			featureMethod.logout(driver);
 		}
 	}
 }

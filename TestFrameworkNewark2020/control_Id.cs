@@ -42,6 +42,7 @@ namespace TestFrameworkNewark2020
 
 
 		//logout control id
-		public static string logout_click = "[href*='/Home/logout']";
+		
+		public static string logout_click = " login_Link";
 	}
 }
